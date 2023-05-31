@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;500;700;900&family=Roboto:wght@400;700&display=swap");
+$fzt: 1.125rem;
+$fwt: 400;
+$lht: 165%;
+$fzh: 2.8125rem;
+$lhh: 130%;
+$White: #ffffff;
+$SlateGray: #5c8692;
+$veryDark: #141414;
+$Brown: #555555;
+$smallDark: #1e2c30;
+$LightSeaGray: #7a9ca5;
+$verySvitGray: #9bb7bf;
+$LightGray: #d0d0d0;
+$Gainsboro: #c4c4c4;
+$Silver: #cccccc;
+$know: #272d32;
+$smallGray: #ebf3f5;
+$Dark: #111e22;
+$DimGray: #84a8b2;
+$veryGray: #95bfcb;
+$DarkGray: #a2b3bf;
+@mixin text($fzt, $lht, $Brown) {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: $fwt;
+  font-size: $fzt;
+  line-height: $lht;
+  /* or 30px */
+
+  letter-spacing: 0.02em;
+
+  color: $Brown;
+}
+@mixin title($fzh, $lhh, $veryDark) {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $fzh;
+  line-height: $lhh;
+  /* or 58px */
+
+  letter-spacing: -0.01em;
+
+  color: $veryDark;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30.375rem;
+  height: 7.8125rem;
+  padding: 2.375rem 6.5625rem;
+  align-items: center;
+  &__head {
+    display: flex;
+    align-items: center;
+    column-gap: 2.875rem;
+    height: 2.1875rem;
+  }
+
+  &__logo {
+    display: flex;
+    column-gap: 0.75rem;
+    height: 2.1875rem;
+  }
+
+  &__picture {
+    width: 2.0625rem;
+    height: 2.0625rem;
+  }
+
+  &__title {
+    @include title(1.75rem, 125%, $veryDark);
+  }
+
+  &__contact {
+    display: flex;
+    column-gap: 0.75rem;
+    height: 23px;
+  }
+
+  &__img-phone {
+    height: 20.93;
+    width: 20.89;
+  }
+
+  &__phone {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 125%;
+    color: $veryDark;
+  }
+
+  &__navigation {
+    display: flex;
+    column-gap: 1.875rem;
+    align-items: center;
+    height: 3.125rem;
+  }
+
+  &__list {
+    display: flex;
+    column-gap: 1.875rem;
+  }
+
+  &__list-item {
+    @include text($fzt, 125%, $Brown);
+    height: 23px;
+  }
+
+  &__list-item-f {
+    @include text($fzt, 125%, $Brown);
+    display: flex;
+    align-items: center;
+    height: 23px;
+  }
+
+  &__link {
+    color: $Brown;
+  }
+
+  &__good {
+    padding-top: 0.5rem;
+  }
+
+  &__icon {
+  }
+
+  &__button {
+    width: 12.5rem;
+    height: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.625rem;
+    background: $LightSeaGray;
+  }
+
+  &__img {
+  }
+
+  &__text {
+    @include text(0.875rem, 125%, $White);
+  }
+}
+.container {
+  max-width: 122.5rem;
+  margin: auto;
+}

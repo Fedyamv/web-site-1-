@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;500;700;900&family=Roboto:wght@400;700&display=swap");
+.header {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 30.375rem;
+       column-gap: 30.375rem;
+  height: 7.8125rem;
+  padding: 2.375rem 6.5625rem;
+  align-items: center;
+}
+.header__head {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 2.875rem;
+       column-gap: 2.875rem;
+  height: 2.1875rem;
+}
+.header__logo {
+  display: flex;
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+  height: 2.1875rem;
+}
+.header__picture {
+  width: 2.0625rem;
+  height: 2.0625rem;
+}
+.header__title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 125%;
+  /* or 58px */
+  letter-spacing: -0.01em;
+  color: #141414;
+}
+.header__contact {
+  display: flex;
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+  height: 23px;
+}
+.header__img-phone {
+  height: 20.93;
+  width: 20.89;
+}
+.header__phone {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 125%;
+  color: #141414;
+}
+.header__navigation {
+  display: flex;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+  align-items: center;
+  height: 3.125rem;
+}
+.header__list {
+  display: flex;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+}
+.header__list-item {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 125%;
+  /* or 30px */
+  letter-spacing: 0.02em;
+  color: #555555;
+  height: 23px;
+}
+.header__list-item-f {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 125%;
+  /* or 30px */
+  letter-spacing: 0.02em;
+  color: #555555;
+  display: flex;
+  align-items: center;
+  height: 23px;
+}
+.header__link {
+  color: #555555;
+}
+.header__good {
+  padding-top: 0.5rem;
+}
+.header__button {
+  width: 12.5rem;
+  height: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 0.625rem;
+       column-gap: 0.625rem;
+  background: #7a9ca5;
+}
+.header__text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 125%;
+  /* or 30px */
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 122.5rem;
+  margin: auto;
+}/*# sourceMappingURL=style.css.map */

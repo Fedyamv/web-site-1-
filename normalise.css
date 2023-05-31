@@ -71,7 +71,7 @@ td {
   outline: 0;
 }
 body {
-  line-height: 1;
+  line-max-height: 1;
   color: black;
   background: white;
 }

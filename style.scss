@@ -52,6 +52,7 @@ $DarkGray: #a2b3bf;
   padding: 2.375rem 6.5625rem;
   align-items: center;
   &__head {
+    width: 31.4306rem;
     display: flex;
     align-items: center;
     column-gap: 2.875rem;
@@ -146,6 +147,66 @@ $DarkGray: #a2b3bf;
   }
 }
 .container {
-  max-width: 122.5rem;
+  width: 122.5rem;
   margin: auto;
+}
+.home {
+  width: 120rem;
+  height: 57.8125rem;
+  background: $smallGray;
+
+  &__content {
+  }
+
+  &__sub-title {
+    width: 278px;
+    height: 23px;
+    display: flex;
+    column-gap: 9px;
+  }
+
+  &__element {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 154.5%;
+    /* or 23px */
+    width: 247spx;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+
+    color: $SlateGray;
+  }
+
+  &__title {
+    @include title(4.375rem, 115%, $veryDark);
+    width: 510px;
+    height: 240px;
+  }
+
+  &__text {
+  }
+
+  &__button {
+  }
+
+  &__text-button {
+  }
+
+  &__picture {
+    position: relative;
+    bottom: 140px;
+    left: 1000px;
+    &_peploe {
+      position: relative;
+      bottom: 900px;
+      left: 930px;
+      z-index: 10;
+      box-shadow: 0px 20px 60px rgba(47, 68, 73, 0.46);
+    }
+  }
 }

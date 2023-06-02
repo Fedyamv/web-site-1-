@@ -356,7 +356,7 @@ $DarkGray: #a2b3bf;
     align-items: center;
     justify-content: center;
     background: $White;
-    border: 1px solid #1e2c30;
+    border: 1px solid $smallDark;
     padding: 21px 11px 21px 11px;
   }
 
@@ -428,7 +428,7 @@ $DarkGray: #a2b3bf;
     height: 0px;
     margin-top: 22px;
     opacity: 0.5;
-    border: 1px solid #9bb7bf;
+    border: 1px solid $verySvitGray;
   }
 
   &__content {
@@ -485,7 +485,7 @@ $DarkGray: #a2b3bf;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #5c8692;
+    border: 2px solid $SlateGray;
   }
 
   &__link {
@@ -497,7 +497,7 @@ $DarkGray: #a2b3bf;
     letter-spacing: 0.12em;
     text-transform: uppercase;
 
-    color: #141414;
+    color: $veryDark;
   }
 
   &__icon {
@@ -511,5 +511,174 @@ $DarkGray: #a2b3bf;
   }
 
   &__img {
+  }
+}
+.testimonials {
+  margin-top: 190px;
+  max-width: 1920px;
+  height: 776px;
+  &__background {
+    background: #edf5f7;
+    width: 1920px;
+    height: 776px;
+  }
+
+  &__header {
+    width: 552px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 147px;
+  }
+
+  &__sub-title {
+    margin-top: 147px;
+    margin-bottom: 2px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 154.5%;
+    /* or 23px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: $SlateGray;
+  }
+
+  &__title {
+    @include title($fzh, $lhh, $veryDark);
+  }
+
+  &__content {
+    margin: auto;
+    width: 1200px;
+    height: 359px;
+    display: flex;
+    column-gap: 36px;
+    margin-top: 40px;
+  }
+
+  &__information {
+  }
+
+  &__info {
+    width: 582px;
+    height: 234px;
+    padding: 44px 48px 54px 49px;
+    background: $White;
+  }
+
+  &__paragragh {
+    width: 485px;
+    height: 146px;
+    @include text(1.1875rem, 180%, $Brown);
+  }
+
+  &__text {
+    display: flex;
+    background: $smallDark;
+    width: 582px;
+    height: 125px;
+    padding: 26px 50.99px 25px 51px;
+  }
+
+  &__picture {
+  }
+
+  &__about {
+    margin-left: 20px;
+    margin-right: 178px;
+  }
+
+  &__stars {
+  }
+
+  &__name {
+    @include title(1.25rem, 160%, $White);
+  }
+
+  &__country {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+
+    letter-spacing: 0.03em;
+
+    color: $White;
+  }
+
+  &__icon {
+  }
+}
+.benefits {
+  margin-top: 147px;
+  &__header {
+    width: 659px;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__sub-title {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 154.5%;
+    /* or 23px */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: $SlateGray;
+  }
+
+  &__title {
+    margin-top: 9px;
+    @include title($fzh, $lhh, $veryDark);
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    width: 1200px;
+    height: 521px;
+    column-gap: 105px;
+    row-gap: 40px;
+  }
+
+  &__about {
+    width: 330px;
+    height: 243px;
+  }
+
+  &__icon {
+    margin-top: 43px;
+  }
+
+  &__head {
+    margin-top: 25px;
+    @include title(1.625rem, 120%, $veryDark);
+    width: 310px;
+    height: 62px;
+  }
+
+  &__text {
+    margin-top: 11px;
+    @include text($fzt, $lht, $Brown);
+    width: 330px;
+    height: 60px;
   }
 }

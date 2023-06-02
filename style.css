@@ -516,4 +516,182 @@
   z-index: -1;
   top: 550px;
   left: 510px;
+}
+.testimonials {
+  margin-top: 190px;
+  max-width: 1920px;
+  height: 776px;
+}
+.testimonials__background {
+  background: #edf5f7;
+  width: 1920px;
+  height: 776px;
+}
+.testimonials__header {
+  width: 552px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 147px;
+}
+.testimonials__sub-title {
+  margin-top: 147px;
+  margin-bottom: 2px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 154.5%;
+  /* or 23px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5c8692;
+}
+.testimonials__title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8125rem;
+  line-height: 130%;
+  /* or 58px */
+  letter-spacing: -0.01em;
+  color: #141414;
+}
+.testimonials__content {
+  margin: auto;
+  width: 1200px;
+  height: 359px;
+  display: flex;
+  -moz-column-gap: 36px;
+       column-gap: 36px;
+  margin-top: 40px;
+}
+.testimonials__info {
+  width: 582px;
+  height: 234px;
+  padding: 44px 48px 54px 49px;
+  background: #ffffff;
+}
+.testimonials__paragragh {
+  width: 485px;
+  height: 146px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1875rem;
+  line-height: 180%;
+  /* or 30px */
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.testimonials__text {
+  display: flex;
+  background: #1e2c30;
+  width: 582px;
+  height: 125px;
+  padding: 26px 50.99px 25px 51px;
+}
+.testimonials__about {
+  margin-left: 20px;
+  margin-right: 178px;
+}
+.testimonials__name {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 160%;
+  /* or 58px */
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.testimonials__country {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.benefits {
+  margin-top: 147px;
+}
+.benefits__header {
+  width: 659px;
+  height: 90px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.benefits__sub-title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 154.5%;
+  /* or 23px */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5c8692;
+}
+.benefits__title {
+  margin-top: 9px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8125rem;
+  line-height: 130%;
+  /* or 58px */
+  letter-spacing: -0.01em;
+  color: #141414;
+}
+.benefits__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  width: 1200px;
+  height: 521px;
+  -moz-column-gap: 105px;
+       column-gap: 105px;
+  row-gap: 40px;
+}
+.benefits__about {
+  width: 330px;
+  height: 243px;
+}
+.benefits__icon {
+  margin-top: 43px;
+}
+.benefits__head {
+  margin-top: 25px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 120%;
+  /* or 58px */
+  letter-spacing: -0.01em;
+  color: #141414;
+  width: 310px;
+  height: 62px;
+}
+.benefits__text {
+  margin-top: 11px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 165%;
+  /* or 30px */
+  letter-spacing: 0.02em;
+  color: #555555;
+  width: 330px;
+  height: 60px;
 }/*# sourceMappingURL=style.css.map */

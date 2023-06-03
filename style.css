@@ -817,4 +817,156 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #141414;
+}
+
+.footer {
+  margin-top: 150px;
+}
+.footer__top {
+  width: 1919px;
+  height: 560px;
+  background: #1e2c30;
+}
+.footer__content {
+  width: 1200px;
+  height: 428px;
+  margin: auto;
+}
+.footer__header {
+  display: flex;
+  -moz-column-gap: 651px;
+       column-gap: 651px;
+}
+.footer__logo {
+  margin-top: 70px;
+  display: flex;
+  -moz-column-gap: 17px;
+       column-gap: 17px;
+}
+.footer__title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 125%;
+  /* or 58px */
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.footer__networks {
+  margin-top: 70px;
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.footer__icon {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #5c8692;
+}
+.footer__line {
+  margin-top: 57px;
+  margin-bottom: 52px;
+  width: 1200px;
+  height: 0px;
+  opacity: 0.15;
+  border: 1px solid #ffffff;
+  transform: rotate(0.05deg);
+}
+.footer__links {
+  display: flex;
+  width: 1199px;
+  height: 258px;
+  -moz-column-gap: 129px;
+       column-gap: 129px;
+}
+.footer__navigation {
+  width: 156px;
+}
+.footer__head {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 140%;
+  /* or 58px */
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  margin-bottom: 21px;
+}
+.footer__link {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 200%;
+  /* or 34px */
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.footer__keep {
+  width: 324px;
+}
+.footer__contact {
+  margin-top: 14px;
+  display: flex;
+  -moz-column-gap: 14px;
+       column-gap: 14px;
+}
+.footer__paragraph {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 150%;
+  /* identical to box height, or 26px */
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.footer__text {
+  width: 234px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 26px */
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.footer__work {
+  width: 176px;
+}
+.footer__pm {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 200%;
+  /* or 34px */
+  margin-top: 10px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.footer__bottom {
+  width: 1920px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111e22;
+}
+.footer__last {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 200%;
+  /* or 30px */
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

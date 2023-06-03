@@ -805,3 +805,176 @@ $DarkGray: #a2b3bf;
     color: $veryDark;
   }
 }
+
+.footer {
+  margin-top: 150px;
+  &__top {
+    width: 1919px;
+    height: 560px;
+
+    background: #1e2c30;
+  }
+
+  &__content {
+    width: 1200px;
+    height: 428px;
+    margin: auto;
+  }
+
+  &__header {
+    display: flex;
+    column-gap: 651px;
+  }
+
+  &__logo {
+    margin-top: 70px;
+    display: flex;
+    column-gap: 17px;
+  }
+
+  &__picture {
+  }
+
+  &__title {
+    @include title(2.5rem, 125%, $White);
+  }
+
+  &__networks {
+    margin-top: 70px;
+    display: flex;
+    column-gap: 10px;
+  }
+
+  &__icon {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $SlateGray;
+  }
+
+  &__line {
+    margin-top: 57px;
+    margin-bottom: 52px;
+    width: 1200px;
+    height: 0px;
+
+    opacity: 0.15;
+    border: 1px solid $White;
+    transform: rotate(0.05deg);
+  }
+
+  &__links {
+    display: flex;
+    width: 1199px;
+    height: 258px;
+    column-gap: 129px;
+  }
+
+  &__navigation {
+    width: 156px;
+  }
+
+  &__head {
+    @include title(1.375rem, 140%, $White);
+    margin-bottom: 21px;
+  }
+
+  &__list {
+  }
+
+  &__list-item {
+  }
+
+  &__link {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 200%;
+    /* or 34px */
+
+    letter-spacing: -0.01em;
+
+    color: $White;
+  }
+
+  &__keep {
+    width: 324px;
+  }
+
+  &__contact {
+    margin-top: 14px;
+    display: flex;
+    column-gap: 14px;
+  }
+
+  &__paragraph {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 150%;
+    /* identical to box height, or 26px */
+
+    letter-spacing: -0.01em;
+
+    color: $White;
+  }
+
+  &__text {
+    width: 234px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 150%;
+    /* or 26px */
+
+    letter-spacing: -0.01em;
+
+    color: $White;
+  }
+
+  &__work {
+    width: 176px;
+  }
+
+  &__pm {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 200%;
+    /* or 34px */
+    margin-top: 10px;
+    letter-spacing: -0.01em;
+
+    color: $White;
+  }
+
+  &__bottom {
+    width: 1920px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: $Dark;
+  }
+
+  &__last {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 200%;
+    /* or 30px */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: $White;
+  }
+}

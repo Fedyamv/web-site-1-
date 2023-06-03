@@ -1167,3 +1167,82 @@ $DarkGray: #a2b3bf;
     color: $White;
   }
 }
+.short {
+  width: 1920px;
+  height: 495px;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 649px;
+    height: 378px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__background {
+    position: absolute;
+  }
+
+  &__sub-title {
+    margin-top: 118px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 154.5%;
+    /* or 23px */
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: $White;
+  }
+
+  &__title {
+    margin-top: 8px;
+    width: 649px;
+    height: 132px;
+
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 120%;
+    /* or 66px */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: $White;
+  }
+
+  &__button {
+    margin-top: 32px;
+    width: 250px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $SlateGray;
+  }
+
+  &__text {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 125%;
+    /* identical to box height, or 18px */
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: $White;
+  }
+}

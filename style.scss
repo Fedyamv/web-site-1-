@@ -654,7 +654,7 @@ $DarkGray: #a2b3bf;
     grid-template-columns: repeat(3, 1fr);
     margin: auto;
     width: 1200px;
-    height: 521px;
+    height: 621px;
     column-gap: 105px;
     row-gap: 40px;
   }
@@ -680,5 +680,128 @@ $DarkGray: #a2b3bf;
     @include text($fzt, $lht, $Brown);
     width: 330px;
     height: 60px;
+  }
+}
+.blog {
+  margin-top: 145px;
+  &__header {
+    width: 289px;
+    height: 85px;
+    margin: auto;
+    text-align: center;
+  }
+
+  &__sub-title {
+    margin-bottom: 4px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 154.5%;
+    /* or 23px */
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: $SlateGray;
+  }
+
+  &__title {
+    @include title($fzh, $lhh, $veryDark);
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 579px;
+    column-gap: 44px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 40px;
+  }
+
+  &__info {
+  }
+
+  &__picture {
+  }
+
+  &__text {
+    width: 370px;
+    height: 254px;
+    padding: 30px 26.43px 39px 26px;
+    background: #edf5f7;
+  }
+
+  &__sub-head {
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 125%;
+    /* or 16px */
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: $SlateGray;
+  }
+
+  &__line {
+    margin-left: 7.21px;
+    margin-right: 10.88px;
+    width: 19.79px;
+    height: 0px;
+
+    border: 2px solid $know;
+  }
+
+  &__head {
+    margin-top: 8px;
+    @include title(1.375rem, 140%, $veryDark);
+    width: 289.87px;
+    height: 62px;
+  }
+
+  &__paragraph {
+    margin-top: 14px;
+    @include text($fzt, 155%, $Brown);
+    width: 317.57px;
+    height: 85px;
+  }
+
+  &__button {
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $SlateGray;
+  }
+
+  &__view {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 125%;
+    /* identical to box height, or 18px */
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: $veryDark;
   }
 }

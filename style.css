@@ -657,7 +657,7 @@
   grid-template-columns: repeat(3, 1fr);
   margin: auto;
   width: 1200px;
-  height: 521px;
+  height: 621px;
   -moz-column-gap: 105px;
        column-gap: 105px;
   row-gap: 40px;
@@ -694,4 +694,127 @@
   color: #555555;
   width: 330px;
   height: 60px;
+}
+
+.blog {
+  margin-top: 145px;
+}
+.blog__header {
+  width: 289px;
+  height: 85px;
+  margin: auto;
+  text-align: center;
+}
+.blog__sub-title {
+  margin-bottom: 4px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 154.5%;
+  /* or 23px */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5c8692;
+}
+.blog__title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8125rem;
+  line-height: 130%;
+  /* or 58px */
+  letter-spacing: -0.01em;
+  color: #141414;
+}
+.blog__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 579px;
+  -moz-column-gap: 44px;
+       column-gap: 44px;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+.blog__text {
+  width: 370px;
+  height: 254px;
+  padding: 30px 26.43px 39px 26px;
+  background: #edf5f7;
+}
+.blog__sub-head {
+  display: flex;
+  align-items: center;
+}
+.blog__link {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 125%;
+  /* or 16px */
+  align-items: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #5c8692;
+}
+.blog__line {
+  margin-left: 7.21px;
+  margin-right: 10.88px;
+  width: 19.79px;
+  height: 0px;
+  border: 2px solid #272d32;
+}
+.blog__head {
+  margin-top: 8px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 140%;
+  /* or 58px */
+  letter-spacing: -0.01em;
+  color: #141414;
+  width: 289.87px;
+  height: 62px;
+}
+.blog__paragraph {
+  margin-top: 14px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 155%;
+  /* or 30px */
+  letter-spacing: 0.02em;
+  color: #555555;
+  width: 317.57px;
+  height: 85px;
+}
+.blog__button {
+  margin: auto;
+  width: 250px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #5c8692;
+}
+.blog__view {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 125%;
+  /* identical to box height, or 18px */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #141414;
 }/*# sourceMappingURL=style.css.map */

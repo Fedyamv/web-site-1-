@@ -116,6 +116,7 @@ $DarkGray: #a2b3bf;
     display: flex;
     align-items: center;
     height: 23px;
+    width: 60px;
   }
 
   &__link {
@@ -123,7 +124,9 @@ $DarkGray: #a2b3bf;
   }
 
   &__good {
-    padding-top: 0.5rem;
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
   }
 
   &__icon {
@@ -1314,4 +1317,104 @@ $DarkGray: #a2b3bf;
   margin-top: 36px;
   margin-bottom: 36px;
   border: 1px solid #d3d3d3;
+}
+.meet {
+  &__all {
+  }
+
+  &__header {
+    width: 659px;
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 129px;
+    column-gap: 9px;
+  }
+
+  &__sub-title {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 154.5%;
+    /* or 23px */
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: $SlateGray;
+  }
+
+  &__title {
+    @include title($fzh, $lhh, $veryDark);
+    width: 659px;
+    height: 116px;
+    text-align: center;
+  }
+
+  &__content {
+    width: 1200px;
+    height: 568px;
+    display: flex;
+    column-gap: 45px;
+    margin: auto;
+    margin-top: 33px;
+  }
+
+  &__about {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 568px;
+    align-items: center;
+  }
+
+  &__picture {
+  }
+
+  &__head {
+    @include title(1.5rem, 120%, $veryDark);
+    margin-top: 25px;
+  }
+
+  &__paragraph {
+    margin-top: 8px;
+    width: 336px;
+    height: 87px;
+    @include text($fzt, 160%, $Brown);
+    text-align: center;
+  }
+
+  &__network {
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 19px;
+    column-gap: 30px;
+  }
+
+  &__icon {
+  }
+}
+.meet {
+  &__sub-head {
+    margin-top: 1px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 154.5%;
+    /* or 23px */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: $SlateGray;
+  }
 }

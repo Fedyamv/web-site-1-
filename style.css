@@ -89,12 +89,15 @@
   display: flex;
   align-items: center;
   height: 23px;
+  width: 60px;
 }
 .header__link {
   color: #555555;
 }
 .header__good {
-  padding-top: 0.5rem;
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
 }
 .header__button {
   width: 12.5rem;
@@ -1277,4 +1280,105 @@
   margin-top: 36px;
   margin-bottom: 36px;
   border: 1px solid #d3d3d3;
+}
+
+.meet__header {
+  width: 659px;
+  height: 148px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 129px;
+  -moz-column-gap: 9px;
+       column-gap: 9px;
+}
+.meet__sub-title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 154.5%;
+  /* or 23px */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5c8692;
+}
+.meet__title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8125rem;
+  line-height: 130%;
+  /* or 58px */
+  letter-spacing: -0.01em;
+  color: #141414;
+  width: 659px;
+  height: 116px;
+  text-align: center;
+}
+.meet__content {
+  width: 1200px;
+  height: 568px;
+  display: flex;
+  -moz-column-gap: 45px;
+       column-gap: 45px;
+  margin: auto;
+  margin-top: 33px;
+}
+.meet__about {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  height: 568px;
+  align-items: center;
+}
+.meet__head {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 120%;
+  /* or 58px */
+  letter-spacing: -0.01em;
+  color: #141414;
+  margin-top: 25px;
+}
+.meet__paragraph {
+  margin-top: 8px;
+  width: 336px;
+  height: 87px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 160%;
+  /* or 30px */
+  letter-spacing: 0.02em;
+  color: #555555;
+  text-align: center;
+}
+.meet__network {
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 19px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.meet__sub-head {
+  margin-top: 1px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 154.5%;
+  /* or 23px */
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5c8692;
 }/*# sourceMappingURL=style.css.map */

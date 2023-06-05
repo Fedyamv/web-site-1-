@@ -1418,3 +1418,66 @@ $DarkGray: #a2b3bf;
     color: $SlateGray;
   }
 }
+.style {
+  margin-top: 130px;
+  width: 1920px;
+  height: 884px;
+  background: $smallGray;
+  box-shadow: 0px 37px 60px rgba(0, 0, 0, 0.02);
+  display: flex;
+  justify-content: center;
+  &__all {
+    display: flex;
+    height: 499px;
+    width: 1200px;
+    background: $smallDark;
+    margin: auto;
+  }
+
+  &__picture {
+    margin-left: 63px;
+    position: relative;
+    bottom: 55px;
+  }
+
+  &__content {
+    width: 508px;
+    height: 351px;
+    margin: 74px 73px 74px 72px;
+  }
+
+  &__sub-title {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 154.5%;
+    /* or 23px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: $White;
+  }
+
+  &__title {
+    margin-top: 9px;
+    @include title($fzh, $lhh, $White);
+    width: 460px;
+    height: 174px;
+  }
+
+  &__text {
+    margin-top: 14px;
+    @include text($fzt, 175%, $White);
+    width: 508px;
+    height: 131px;
+  }
+}
+.style {
+  &__gg {
+    margin-top: 193px;
+  }
+}

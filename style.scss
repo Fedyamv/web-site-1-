@@ -1481,3 +1481,98 @@ $DarkGray: #a2b3bf;
     margin-top: 193px;
   }
 }
+.share {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  &__all {
+    width: 1201px;
+    height: 976px;
+    margin: auto;
+    position: relative;
+  }
+
+  &__content {
+  }
+
+  &__sub-title {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 154.5%;
+    /* or 23px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: $SlateGray;
+  }
+
+  &__title {
+    margin-top: 9px;
+    margin-bottom: 53px;
+    width: 264px;
+    height: 116px;
+    @include title($fzh, $lhh, $veryDark);
+  }
+
+  &__text {
+    margin-top: 22px;
+    width: 495px;
+    height: 123px;
+    @include text($fzt, 175%, $Brown);
+  }
+
+  &__img {
+    width: 644px;
+    height: 480px;
+    position: absolute;
+    left: 550px;
+    bottom: 485px;
+  }
+
+  &__picture {
+    width: 505px;
+    height: 575px;
+    position: absolute;
+    top: 375px;
+  }
+
+  &__figure {
+    width: 644px;
+    height: 450px;
+    position: absolute;
+    left: 550px;
+    top: 530px;
+  }
+
+  &__button {
+    width: 249px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $SlateGray;
+    margin: auto;
+    margin-top: 55px;
+  }
+
+  &__link {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 125%;
+    /* identical to box height, or 18px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: $White;
+  }
+}

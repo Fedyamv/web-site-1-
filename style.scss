@@ -446,6 +446,7 @@ $DarkGray: #a2b3bf;
   }
 
   &__picture {
+    height: 640px;
   }
 
   &__text {
@@ -459,7 +460,7 @@ $DarkGray: #a2b3bf;
   }
 
   &__top {
-    margin-top: 18px;
+    margin-top: 12px;
     width: 529px;
     height: 61px;
   }
@@ -509,11 +510,12 @@ $DarkGray: #a2b3bf;
     // bottom: 490px;
 
     z-index: -1;
-    top: 550px;
+    top: 549px;
     left: 510px;
   }
 
   &__img {
+    height: 640px;
   }
 }
 .testimonials {
@@ -876,6 +878,7 @@ $DarkGray: #a2b3bf;
 
 .blog {
   margin-top: 145px;
+  margin-bottom: 150px;
   &__header {
     width: 289px;
     height: 85px;
@@ -999,7 +1002,7 @@ $DarkGray: #a2b3bf;
 }
 
 .footer {
-  margin-top: 150px;
+  // margin-top: 150px;
   &__top {
     width: 1919px;
     height: 560px;
@@ -1574,5 +1577,56 @@ $DarkGray: #a2b3bf;
     text-transform: uppercase;
 
     color: $White;
+  }
+}
+.claim {
+  margin-top: 158px;
+  background: $smallGray;
+  width: 1920px;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__content {
+    width: 654px;
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__sub-title {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 154.5%;
+    /* or 23px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: $SlateGray;
+  }
+
+  &__title {
+    margin-top: 9px;
+    text-align: center;
+    width: 626px;
+    height: 116px;
+    @include title($fzh, $lhh, $veryDark);
+  }
+
+  &__text {
+    margin-top: 14px;
+    margin-bottom: 37px;
+    text-align: center;
+    width: 644px;
+    height: 64px;
+    @include text($fzt, 175%, $Brown);
   }
 }

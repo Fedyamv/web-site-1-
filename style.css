@@ -446,6 +446,9 @@
        column-gap: 68px;
   position: relative;
 }
+.service__picture {
+  height: 640px;
+}
 .service__text {
   width: 530px;
   height: 493px;
@@ -456,7 +459,7 @@
   height: 493px;
 }
 .service__top {
-  margin-top: 18px;
+  margin-top: 12px;
   width: 529px;
   height: 61px;
 }
@@ -517,9 +520,13 @@
 .service__icon {
   position: absolute;
   z-index: -1;
-  top: 550px;
+  top: 549px;
   left: 510px;
 }
+.service__img {
+  height: 640px;
+}
+
 .testimonials {
   margin-top: 190px;
   max-width: 1920px;
@@ -858,6 +865,7 @@
 
 .blog {
   margin-top: 145px;
+  margin-bottom: 150px;
 }
 .blog__header {
   width: 289px;
@@ -979,9 +987,6 @@
   color: #141414;
 }
 
-.footer {
-  margin-top: 150px;
-}
 .footer__top {
   width: 1919px;
   height: 560px;
@@ -1546,4 +1551,65 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.claim {
+  margin-top: 158px;
+  background: #ebf3f5;
+  width: 1920px;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.claim__content {
+  width: 654px;
+  height: 408px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.claim__sub-title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 154.5%;
+  /* or 23px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5c8692;
+}
+.claim__title {
+  margin-top: 9px;
+  text-align: center;
+  width: 626px;
+  height: 116px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8125rem;
+  line-height: 130%;
+  /* or 58px */
+  letter-spacing: -0.01em;
+  color: #141414;
+}
+.claim__text {
+  margin-top: 14px;
+  margin-bottom: 37px;
+  text-align: center;
+  width: 644px;
+  height: 64px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 175%;
+  /* or 30px */
+  letter-spacing: 0.02em;
+  color: #555555;
 }/*# sourceMappingURL=style.css.map */

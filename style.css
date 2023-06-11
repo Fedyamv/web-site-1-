@@ -142,10 +142,9 @@
 }
 .home__content {
   margin: 0px 0 235px 360px;
-  width: 510px;
+  padding-top: 225px;
+  width: 735px;
   height: 455px;
-  position: relative;
-  top: 225px;
 }
 .home__sub-title {
   margin-left: 0;
@@ -849,35 +848,20 @@
 .appointment__button {
   width: 399px;
   height: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: #5c8692;
-}
-.appointment__p {
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 125%;
-  /* identical to box height, or 18px */
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #ffffff;
 }
 
-.submit {
+.appointment__butto {
   width: 399px;
   height: 64px;
-  background: #5c8692;
+  background-color: #5c8692;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
   line-height: 125%;
   /* identical to box height, or 18px */
+  padding: 23px 109px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #ffffff;
@@ -1676,10 +1660,9 @@
   }
   .home__content {
     margin: 0px 0 235px 100px;
-    width: 510px;
+    padding-top: 225px;
+    width: 735px;
     height: 455px;
-    position: relative;
-    top: 225px;
   }
   .home__picture {
     position: absolute;
@@ -1719,10 +1702,6 @@
   }
 }
 @media screen and (max-width: 1250px) {
-  .features {
-    margin-top: 143px;
-    max-width: 1200px;
-  }
   .features__content {
     max-width: 1200px;
     min-height: 1589px;
@@ -1731,5 +1710,156 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+  .service__content {
+    margin-top: 50px;
+    max-width: 1198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 598px;
+    flex-direction: column;
+    height: 1100px;
+    gap: 30px;
+    margin-top: 50px;
+    position: none;
+  }
+  .service__icon {
+    display: none;
+  }
+  .testimonials {
+    margin-top: 190px;
+    max-width: 1250px;
+    height: 1076px;
+  }
+  .testimonials__background {
+    background: #edf5f7;
+    max-width: 1920px;
+    height: 1076px;
+  }
+  .testimonials__content {
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 759px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin-top: 40px;
+  }
+  .benefits__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 800px;
+    height: 921px;
+    -moz-column-gap: 105px;
+         column-gap: 105px;
+    row-gap: 40px;
+  }
+  .appointment {
+    margin-top: 161px;
+    max-width: 1920px;
+    height: 1530px;
+    background: #edf5f7;
+  }
+  .appointment__all {
+    margin: auto;
+    max-width: 1199px;
+    height: 1267px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -moz-column-gap: 115px;
+         column-gap: 115px;
+  }
+  .blog__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    height: 1779px;
+    row-gap: 44px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 40px;
+  }
+  .footer__links {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 649px;
+    height: 558px;
+    -moz-column-gap: 129px;
+         column-gap: 129px;
+    margin: auto;
+  }
+  .footer__top {
+    max-width: 1919px;
+    height: 860px;
+    background: #1e2c30;
+  }
+  .footer__header {
+    max-width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    -moz-column-gap: 1px;
+         column-gap: 1px;
+  }
+  .footer__content {
+    max-width: 1200px;
+    height: 728px;
+    margin: auto;
+  }
+  .home {
+    max-width: 1050px;
+    height: 725px;
+    background-color: #ebf3f5;
+    margin-bottom: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home__content {
+    margin: 0;
+    padding: 0;
+    width: 510px;
+    height: 455px;
+  }
+  .home__picture {
+    display: none;
+  }
+  .home__picture_people {
+    display: none;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about__content {
+    width: 529px;
+    height: 559.02px;
+    margin: 0;
+  }
+  .about__photo {
+    display: none;
+  }
+  .style__picture {
+    display: none;
+  }
+  .meet__content {
+    width: 370px;
+    height: 1668px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin: auto;
+    margin-top: 33px;
   }
 }/*# sourceMappingURL=style.css.map */

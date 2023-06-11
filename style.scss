@@ -185,10 +185,11 @@ $DarkGray: #a2b3bf;
 
   &__content {
     margin: 0px 0 235px 360px;
-    width: 510px;
+    padding-top: 225px;
+    width: 735px;
     height: 455px;
-    position: relative;
-    top: 225px;
+    // position: relative;
+    // top: 225px;
   }
 
   &__sub-title {
@@ -874,50 +875,72 @@ $DarkGray: #a2b3bf;
   &__button {
     width: 399px;
     height: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+
     background: #5c8692;
   }
 
-  &__p {
+  // &__p {
+  //   font-family: "Manrope";
+  //   font-style: normal;
+  //   font-weight: 800;
+  //   font-size: 14px;
+  //   line-height: 125%;
+  //   /* identical to box height, or 18px */
+
+  //   align-items: center;
+  //   text-align: center;
+  //   letter-spacing: 0.12em;
+  //   text-transform: uppercase;
+
+  //   color: #ffffff;
+  // }
+}
+.appointment {
+  &__butto {
+    width: 399px;
+    height: 64px;
+    background-color: #5c8692;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
     font-family: "Manrope";
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
     line-height: 125%;
     /* identical to box height, or 18px */
-
-    align-items: center;
-    text-align: center;
+    padding: 23px 109px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
 
-    color: #ffffff;
+    color: $White;
   }
 }
 
-.submit {
-  width: 399px;
-  height: 64px;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-  background: #5c8692;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 125%;
-  /* identical to box height, or 18px */
+// .submit {
+//   width: 399px;
+//   height: 64px;
+//   // display: flex;
+//   // align-items: center;
+//   // justify-content: center;
+//   background: #5c8692;
+//   font-family: "Manrope";
+//   font-style: normal;
+//   font-weight: 800;
+//   font-size: 14px;
+//   line-height: 125%;
+//   /* identical to box height, or 18px */
 
-  // align-items: center;
-  // text-align: center;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+//   // align-items: center;
+//   // text-align: center;
+//   letter-spacing: 0.12em;
+//   text-transform: uppercase;
 
-  color: #ffffff;
-}
+//   color: #ffffff;
+// }
 
 .blog {
   margin-top: 145px;
@@ -1726,10 +1749,9 @@ $DarkGray: #a2b3bf;
     max-width: 1620px;
     &__content {
       margin: 0px 0 235px 100px;
-      width: 510px;
+      padding-top: 225px;
+      width: 735px;
       height: 455px;
-      position: relative;
-      top: 225px;
     }
     &__picture {
       position: absolute;
@@ -1773,8 +1795,6 @@ $DarkGray: #a2b3bf;
 }
 @media screen and (max-width: 1250px) {
   .features {
-    margin-top: 143px;
-    max-width: 1200px;
     &__content {
       max-width: 1200px;
       min-height: 1589px;
@@ -1783,6 +1803,169 @@ $DarkGray: #a2b3bf;
       justify-content: center;
       align-items: center;
       gap: 20px;
+    }
+  }
+  .service {
+    &__content {
+      margin-top: 50px;
+      max-width: 1198px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 598px;
+      flex-direction: column;
+      height: 1100px;
+      gap: 30px;
+      margin-top: 50px;
+      // column-gap: 68px;
+      position: none;
+    }
+    &__icon {
+      display: none;
+    }
+  }
+  .testimonials {
+    margin-top: 190px;
+    max-width: 1250px;
+    height: 1076px;
+    &__background {
+      background: #edf5f7;
+      max-width: 1920px;
+      height: 1076px;
+    }
+    &__content {
+      justify-content: center;
+      align-items: center;
+      width: 600px;
+      height: 759px;
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+      margin-top: 40px;
+    }
+  }
+  .benefits {
+    &__content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      width: 800px;
+      height: 921px;
+      column-gap: 105px;
+      row-gap: 40px;
+    }
+  }
+  .appointment {
+    margin-top: 161px;
+    max-width: 1920px;
+    height: 1530px;
+
+    background: #edf5f7;
+    &__all {
+      margin: auto;
+      max-width: 1199px;
+      height: 1267px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      column-gap: 115px;
+    }
+  }
+  .blog {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 400px;
+      height: 1779px;
+      row-gap: 44px;
+      margin: auto;
+      margin-bottom: 60px;
+      margin-top: 40px;
+    }
+  }
+  .footer {
+    &__links {
+      justify-content: center;
+      align-items: center;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      width: 649px;
+      height: 558px;
+      column-gap: 129px;
+      margin: auto;
+    }
+    &__top {
+      max-width: 1919px;
+      height: 860px;
+
+      background: #1e2c30;
+    }
+    &__header {
+      max-width: 1250px;
+      display: flex;
+      justify-content: space-around;
+      column-gap: 1px;
+    }
+    &__content {
+      max-width: 1200px;
+      height: 728px;
+      margin: auto;
+    }
+  }
+  .home {
+    max-width: 1050px;
+    height: 725px;
+    background-color: $smallGray;
+    margin-bottom: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__content {
+      margin: 0;
+      padding: 0;
+      width: 510px;
+      height: 455px;
+    }
+    &__picture {
+      display: none;
+      &_people {
+        display: none;
+      }
+    }
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__content {
+      width: 529px;
+      height: 559.02px;
+      margin: 0;
+    }
+    &__photo {
+      display: none;
+    }
+  }
+  .style {
+    &__picture {
+      display: none;
+    }
+  }
+  .meet {
+    &__content {
+      width: 370px;
+      height: 1668px;
+      display: flex;
+      flex-direction: column;
+      gap: 45px;
+      margin: auto;
+      margin-top: 33px;
     }
   }
 }
